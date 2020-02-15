@@ -1,8 +1,8 @@
 [
-  {"url": "http://techslides.com/demos/sample-videos/small.mp4"},
-  {"url": "http://techslides.com/demos/sample-videos/small.mp4"},
-  {"url": "http://techslides.com/demos/sample-videos/small.mp4"},
-  {"url": "http://techslides.com/demos/sample-videos/small.mp4"},
-  {"url": "http://techslides.com/demos/sample-videos/small.mp4"},
-  {"url": "http://techslides.com/demos/sample-videos/small.mp4"}
+  {"name": "Paris", "url": "http://techslides.com/demos/sample-videos/small.mp4"},
+  {"name": "Rome", "url": "http://techslides.com/demos/sample-videos/small.mp4"},
+  {"name": "London", "url": "http://techslides.com/demos/sample-videos/small.mp4"},
+  {"name": "NY", "url": "http://techslides.com/demos/sample-videos/small.mp4"},
+  {"name": "Casablanca", "url": "http://techslides.com/demos/sample-videos/small.mp4"},
+  {"name": "Berlin", "url": "http://techslides.com/demos/sample-videos/small.mp4"}
 ]
