@@ -7,12 +7,11 @@ type Video = {
 };
 
 function App() {
-  console.log(data);
   return (
     <div className="pageWrapper">
       {data.map((video: Video) => (
           <div className="playingVideoWrapper">
-            <video muted autoPlay>
+            <video muted autoPlay loop>
               <source src={video.url}/>
             </video>
           </div>
