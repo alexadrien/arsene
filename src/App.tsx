@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 import data from "./data.json";
 import { numberOfVideos } from "./contants";
+import ReactPlayer from "react-player";
 
 
 type Video = {
@@ -23,7 +24,7 @@ function App() {
       newVideos[randomVideoIndex] = data[secondRandomVideoIndex];
       setVideos(newVideos);
       setCounter(counter + 1);
-    }, 30000);
+    }, 2000);
     return () => clearInterval(interval);
   });
 
@@ -31,9 +32,11 @@ function App() {
       <div className="pageWrapper">
         {videos.map((video: Video, index) => (
             <div className="playingVideoWrapper" key={index}>
-              <video muted autoPlay loop>
-                <source src={video.url} />
-              </video>
+              <ReactPlayer url={video.url} muted playing />
+              {/*<Player playsInline src={video.url} autoplay muted/>*/}
+              {/*<video muted autoPlay loop>*/}
+              {/*  <source src={video.url} />*/}
+              {/*</video>*/}
               <span>{video.name}</span>
             </div>
         ))}
