@@ -4,5 +4,14 @@
   {"name": "London", "url": "http://techslides.com/demos/sample-videos/small.mp4"},
   {"name": "NY", "url": "http://techslides.com/demos/sample-videos/small.mp4"},
   {"name": "Casablanca", "url": "http://techslides.com/demos/sample-videos/small.mp4"},
-  {"name": "Berlin", "url": "http://techslides.com/demos/sample-videos/small.mp4"}
+  {"name": "Berlin", "url": "http://techslides.com/demos/sample-videos/small.mp4"},
+  {"name": "Lyon", "url": "http://techslides.com/demos/sample-videos/small.mp4"},
+  {"name": "Nantes", "url": "http://techslides.com/demos/sample-videos/small.mp4"},
+  {"name": "Limoges", "url": "http://techslides.com/demos/sample-videos/small.mp4"},
+  {"name": "Carrières sur Seine", "url": "http://techslides.com/demos/sample-videos/small.mp4"},
+  {"name": "Poissy", "url": "http://techslides.com/demos/sample-videos/small.mp4"},
+  {"name": "Vincenne", "url": "http://techslides.com/demos/sample-videos/small.mp4"},
+  {"name": "Montpellier", "url": "http://techslides.com/demos/sample-videos/small.mp4"},
+  {"name": "Marseilles", "url": "http://techslides.com/demos/sample-videos/small.mp4"},
+  {"name": "Lille", "url": "http://techslides.com/demos/sample-videos/small.mp4"}
 ]
