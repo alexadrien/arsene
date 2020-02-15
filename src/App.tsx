@@ -13,7 +13,7 @@ const initialVideos: Video[] = data.slice(0, numberOfVideos);
 
 function App() {
   const [videos, setVideos] = useState(initialVideos);
-  const [counter, setCounter] = useState(0);
+  const [counter, setCounter] = useState( 0);
 
   useEffect(() => {
     const interval = setInterval(() => {
