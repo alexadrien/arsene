@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.playingVideoWrapper {
+  width: calc(100vw/3);
+  height: calc(100vh/3);
+  display: flex;
+  flex-grow: 1;
+}
+
+.pageWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
