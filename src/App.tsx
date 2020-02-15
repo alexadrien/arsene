@@ -18,11 +18,12 @@ function App() {
   useEffect(() => {
     const interval = setInterval(() => {
       const randomVideoIndex = Math.floor(Math.random() * videos.length);
+      const secondRandomVideoIndex = Math.floor(Math.random() * data.length);
       let newVideos = videos;
-      newVideos[randomVideoIndex] = data[data.length - 1];
+      newVideos[randomVideoIndex] = data[secondRandomVideoIndex];
       setVideos(newVideos);
       setCounter(counter + 1);
-    }, 3000);
+    }, 30000);
     return () => clearInterval(interval);
   });
 
