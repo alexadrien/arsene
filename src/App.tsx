@@ -24,7 +24,7 @@ function App() {
       newVideos[randomVideoIndex] = data[secondRandomVideoIndex];
       setVideos(newVideos);
       setCounter(counter + 1);
-    }, 2000);
+    }, 5000);
     return () => clearInterval(interval);
   });
 
