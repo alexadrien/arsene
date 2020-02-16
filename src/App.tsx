@@ -32,7 +32,7 @@ function App() {
       <div className="pageWrapper">
         {videos.map((video: Video, index) => (
             <div className="playingVideoWrapper" key={index}>
-              <ReactPlayer url={video.url} muted playing loop />
+              <ReactPlayer url={video.url} muted playing loop pip={false} />
               {/*<Player playsInline src={video.url} autoplay muted/>*/}
               {/*<video muted autoPlay loop>*/}
               {/*  <source src={video.url} />*/}
